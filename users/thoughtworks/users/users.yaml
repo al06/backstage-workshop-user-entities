@@ -1,9 +1,9 @@
 apiVersion: backstage.io/v1alpha1
 kind: User
 metadata:
-  name: bruce.wayne
+  name: john.doe
   profile:
-    displayName: Bruce Wayne
+    displayName: John Doe
     email: iambatman@thoughtworks.com
     picture: 
 spec:
