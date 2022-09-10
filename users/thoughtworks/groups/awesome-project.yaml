@@ -5,4 +5,13 @@ metadata:
   description: Awesome Project Team
 spec:
   type: team
+  children: [platform-engg-team]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: platform-engg-team
+  description: Platform engineering Team
+spec:
+  type: team
   children: []
